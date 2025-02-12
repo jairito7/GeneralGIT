@@ -1,0 +1,16 @@
+
+        /*Tipos de variables
+        let, var, const*/
+        /*String- int - float -Boolean*/
+
+        /*Tipos de Mensaje - Usuario*/
+       // alert("Hola!");
+      /* prompt - confirm
+        let num1 =  prompt("Digite el primer numero: ");
+        let num2 =  prompt("Digite el segundo numero: ");
+
+        let suma = num1 + num2;
+        alert("la suma de los numeros es: "+suma);
+        tarea: pedir al usuario por medio de un menu
+	que operacion desea: suma, resta, multi o divi
+        */

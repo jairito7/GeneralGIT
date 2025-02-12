@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="icon" type="image/png" href="https://www.youtube.com/s/desktop/eb0437e6/img/logos/favicon.ico">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Suma de dos numeros</h1>
+    <input type="number" id="num1" placeholder="Ingrese el primer numero">
+    <input type="number" id="num2" placeholder="Ingrese el segundo numero">
+
+    <button onclick="sumar()">SUMA</button>
+    <button onclick="resta()">RESTA</button>
+    <button onclick="sumar()">MULTI</button>
+    <button onclick="sumar()">DIVI</button>
+    <h3 id="resultado"></h3>
+
+    <script>
+        function sumar(){
+
+        const numero1 = parseInt( document.getElementById("num1").value);
+        const numero2 = parseFloat(document.getElementById("num2").value);
+
+        const suma = numero1 + numero2;
+
+        document.getElementById("resultado").innerText ="el resultado es: " +suma;
+        
+    }
+    </script>
+
+
+</body>
+</html>
